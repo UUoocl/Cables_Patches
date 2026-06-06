@@ -137,11 +137,11 @@
                 },
                 {
                     "name": "width",
-                    "value": 675
+                    "value": 645
                 },
                 {
                     "name": "height",
-                    "value": 359
+                    "value": 396
                 },
                 {
                     "name": "Pixel Density",
@@ -945,7 +945,7 @@
                 },
                 {
                     "name": "Auto send value change",
-                    "value": 1
+                    "value": 0
                 }
             ],
             "portsOut": [
@@ -1213,16 +1213,32 @@
                             "portOut": "result",
                             "objIn": "1c9eonbk1",
                             "objOut": "ds59zr839"
+                        },
+                        {
+                            "portIn": "Device index",
+                            "portOut": "result",
+                            "objIn": "li15ufvu6",
+                            "objOut": "ds59zr839"
                         }
                     ]
                 }
             ],
             "objName": "Ops.Number.Number"
+        },
+        {
+            "id": "li15ufvu6",
+            "portsIn": [
+                {
+                    "name": "Device",
+                    "value": "IAC Driver Bus 1"
+                }
+            ],
+            "objName": "Ops.Devices.Midi.MidiInputDevice_v2"
         }
     ],
     "export": {
-        "time": "2026-06-06 00:16",
+        "time": "2026-06-06 02:03",
         "service": "html",
-        "exportNumber": 6
+        "exportNumber": 8
     }
 }
