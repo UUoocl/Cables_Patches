@@ -137,11 +137,11 @@
                 },
                 {
                     "name": "width",
-                    "value": 645
+                    "value": 425
                 },
                 {
                     "name": "height",
-                    "value": 396
+                    "value": 412
                 },
                 {
                     "name": "Pixel Density",
@@ -941,11 +941,15 @@
                 },
                 {
                     "name": "CC Index",
-                    "value": 1
+                    "value": 22
+                },
+                {
+                    "name": "CC Value",
+                    "value": 0
                 },
                 {
                     "name": "Auto send value change",
-                    "value": 0
+                    "value": 1
                 }
             ],
             "portsOut": [
@@ -956,6 +960,12 @@
                             "portIn": "Object",
                             "portOut": "MIDI Event Out",
                             "objIn": "mhuitjyhg",
+                            "objOut": "a34au3hy0"
+                        },
+                        {
+                            "portIn": "CC",
+                            "portOut": "MIDI Event Out",
+                            "objIn": "1c9eonbk1",
                             "objOut": "a34au3hy0"
                         }
                     ]
@@ -979,14 +989,7 @@
                 },
                 {
                     "name": "Number",
-                    "links": [
-                        {
-                            "portIn": "CC Value",
-                            "portOut": "Number",
-                            "objIn": "a34au3hy0",
-                            "objOut": "qsudtlxi4"
-                        }
-                    ]
+                    "value": 0
                 }
             ],
             "objName": "Ops.Number.TriggerOnChangeNumber_v2"
@@ -1213,32 +1216,16 @@
                             "portOut": "result",
                             "objIn": "1c9eonbk1",
                             "objOut": "ds59zr839"
-                        },
-                        {
-                            "portIn": "Device index",
-                            "portOut": "result",
-                            "objIn": "li15ufvu6",
-                            "objOut": "ds59zr839"
                         }
                     ]
                 }
             ],
             "objName": "Ops.Number.Number"
-        },
-        {
-            "id": "li15ufvu6",
-            "portsIn": [
-                {
-                    "name": "Device",
-                    "value": "IAC Driver Bus 1"
-                }
-            ],
-            "objName": "Ops.Devices.Midi.MidiInputDevice_v2"
         }
     ],
     "export": {
-        "time": "2026-06-06 02:03",
+        "time": "2026-06-06 04:24",
         "service": "html",
-        "exportNumber": 8
+        "exportNumber": 10
     }
 }
