@@ -944,10 +944,6 @@
                     "value": 22
                 },
                 {
-                    "name": "CC Value",
-                    "value": 0
-                },
-                {
                     "name": "Auto send value change",
                     "value": 1
                 }
@@ -989,7 +985,14 @@
                 },
                 {
                     "name": "Number",
-                    "value": 0
+                    "links": [
+                        {
+                            "portIn": "CC Value",
+                            "portOut": "Number",
+                            "objIn": "a34au3hy0",
+                            "objOut": "qsudtlxi4"
+                        }
+                    ]
                 }
             ],
             "objName": "Ops.Number.TriggerOnChangeNumber_v2"
@@ -1224,8 +1227,8 @@
         }
     ],
     "export": {
-        "time": "2026-06-06 04:24",
+        "time": "2026-06-06 04:30",
         "service": "html",
-        "exportNumber": 10
+        "exportNumber": 12
     }
 }
